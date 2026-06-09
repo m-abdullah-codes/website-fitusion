@@ -2,26 +2,341 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ════════════════════════════════════════════════════════════════════
+   THEME — single source of truth.
+   Colours are stored as space-separated RGB channels so Tailwind's
+   `/<alpha>` opacity modifiers keep working (e.g. text-volt/60).
+   Gradients are composed from those channels and exposed as --grad-*.
+   ════════════════════════════════════════════════════════════════════ */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* ── Surfaces (dark → light) ───────────────────────────── */
+  --c-black:    0 0 0;
+  --c-ink:      6 7 5;      /* deepest near-black stage base */
+  --c-void:     10 11 10;   /* page background */
+  --c-pitch:    15 17 15;   /* alt section background */
+  --c-coal:     19 20 13;   /* icon wells */
+  --c-onyx:     22 25 22;   /* card / surface */
+  --c-graphite: 31 35 31;   /* elevated hover */
+  --c-iron:     42 46 41;   /* borders */
+
+  /* ── Accent greens (bright → deep) ─────────────────────── */
+  --c-volt:     200 250 75; /* primary accent */
+  --c-acid:     180 231 57; /* secondary / hover */
+  --c-cta:      168 216 27; /* lime — CTA fills, button gradient, glows */
+  --c-grass:    95 125 15;  /* deep glow green (stage / trainers) */
+
+  /* ── Muted greens ──────────────────────────────────────── */
+  --c-sage:     150 162 104; /* lit olive bloom */
+  --c-olive:    111 120 79;
+  --c-moss:     66 71 53;
+  --c-fern:     94 112 22;
+
+  /* ── Pale highlights ───────────────────────────────────── */
+  --c-linen:    248 254 228;
+  --c-cream:    243 254 198;
+  --c-citron:   235 255 155;
+
+  /* ── Neutrals / text ───────────────────────────────────── */
+  --c-pure:     255 255 255;
+  --c-bone:     236 239 232;
+  --c-ash:      156 160 152;
+  --c-smoke:    91 95 88;
+
+  /* ── Decorative — Courses card folded-corner bevel ─────── */
+  --c-bevel-dark: 26 30 18;    /* deep fold shadow */
+  --c-bevel-mid:  68 84 30;
+  --c-bevel-edge: 121 138 62;  /* lit facet */
+  --c-glint-soft: 207 229 133; /* specular glint start */
+  --c-glint:      232 255 174; /* specular glint peak */
+  --c-fold:       194 217 122; /* lit fold hairline */
+
+  /* ── Gradients ─────────────────────────────────────────── */
+
+  /* Radial olive glow behind subjects */
+  --grad-volt-glow: radial-gradient(
+    circle,
+    rgb(var(--c-olive) / 0.45) 0%,
+    rgb(var(--c-olive) / 0.42) 25%,
+    transparent 76%
+  );
+
+  /* Stat chip — muted olive top fading to dark, lit cream border */
+  --grad-stat: linear-gradient(
+    180deg,
+    rgb(106 109 90) 0%,
+    rgb(106 109 90) 30%,
+    rgb(77 79 66) 62%,
+    rgb(53 53 48) 82%,
+    rgb(43 43 39) 88%,
+    rgb(35 35 35) 100%
+  );
+  --grad-stat-border: linear-gradient(180deg, rgb(var(--c-cream)), transparent);
+
+  /* Primary CTA button */
+  --grad-btn-primary: linear-gradient(135deg, rgb(var(--c-cta)) 0%, rgb(166 201 0) 100%);
+
+  /* Shared dark card panel */
+  --grad-card: linear-gradient(180deg, rgb(24 25 20) 0%, rgb(17 18 13) 100%);
+
+  /* Highlighted / selected plan card — olive moss with faint lime inner glow */
+  --grad-card-active: radial-gradient(120% 85% at 50% 0%, rgb(var(--c-citron) / 0.1), transparent 60%),
+    rgb(var(--c-moss));
+
+  /* Experience feature card — luminous olive top fading into near-black */
+  --grad-exp: radial-gradient(120% 75% at 50% -8%, rgb(var(--c-sage) / 0.2) 0%, transparent 58%),
+    linear-gradient(
+      178deg,
+      rgb(48 51 36 / 0.31) 0%,
+      rgb(43 46 32) 6%,
+      rgb(35 38 24) 34%,
+      rgb(24 26 16) 64%,
+      rgb(14 15 8) 100%
+    );
+
+  /* Testimonial quote card — glass panel with volt + olive bloom */
+  --grad-quote: radial-gradient(110% 90% at 100% 0%, rgb(var(--c-volt) / 0.14) 0%, transparent 52%),
+    radial-gradient(90% 70% at 0% 100%, rgb(var(--c-olive) / 0.22) 0%, transparent 55%),
+    linear-gradient(158deg, rgb(48 51 36 / 0.97) 0%, rgb(22 24 16 / 0.99) 55%, rgb(10 11 7) 100%);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* ════════════════════════════════════════════════════════════════════
+   KEYFRAMES
+   ════════════════════════════════════════════════════════════════════ */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+/* Testimonials — gentle interior glow pulse */
+@keyframes testimonialGlow {
+  0%, 100% { opacity: 0.7; }
+  50%      { opacity: 1; }
+}
+
+/* Chip entrance — fade up + blur clear + a subtle overshoot pop */
+@keyframes chipEnter {
+  0% {
+    opacity: 0;
+    transform: translateY(34px) scale(0.6);
+    filter: blur(8px);
+  }
+  60% { opacity: 1; }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* Chip idle float — gentle, organic vertical drift */
+@keyframes chipFloat {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-9px); }
+}
+
+/* Hero headline — each line rises + clears blur into place on load */
+@keyframes heroRise {
+  0% {
+    opacity: 0;
+    transform: translateY(42px);
+    filter: blur(7px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+/* Hero glow — slow "breathing" pulse behind the athlete */
+@keyframes heroGlowBreathe {
+  0%, 100% { opacity: 0.82; transform: translate(-50%, -50%) scale(1); }
+  50%      { opacity: 1;    transform: translate(-50%, -50%) scale(1.06); }
+}
+
+/* Primary button — lime light-sheen that sweeps across on hover */
+@keyframes btnSheen {
+  0%   { transform: translateX(-130%) skewX(-18deg); }
+  100% { transform: translateX(130%) skewX(-18deg); }
+}
+
+/* Experience BPM chip — realistic double-thump heartbeat */
+@keyframes heartbeat {
+  0%, 60%, 100% { transform: scale(1); }
+  12%           { transform: scale(1.18); }
+  24%           { transform: scale(1); }
+  36%           { transform: scale(1.12); }
+  48%           { transform: scale(1); }
+}
+
+@layer base {
+  body {
+    @apply bg-void text-bone font-sans antialiased;
+  }
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   LAYOUT — section rhythm (single source of vertical/horizontal spacing)
+   ════════════════════════════════════════════════════════════════════ */
+@layer components {
+  /* Standard page section: shared gutter + vertical rhythm + bg */
+  .section {
+    @apply bg-black px-6 py-20 sm:py-28;
+  }
+
+  /* Section whose children bleed to the viewport edge (carousels):
+     same vertical rhythm + bg, but no horizontal gutter. */
+  .section-flush {
+    @apply bg-black py-20 sm:py-28;
+  }
+
+  /* Centered content column. Inside .section the gutter is inherited;
+     inside .section-flush, add `px-6` where the gutter is wanted. */
+  .section-container {
+    @apply mx-auto w-full max-w-[1200px];
+  }
+
+  /* Standard gap between a section heading and the content below it */
+  .section-head {
+    @apply mb-14 sm:mb-20;
+  }
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .chip-enter {
+    animation: chipEnter 0.9s cubic-bezier(0.34, 1.56, 0.64, 1) backwards;
+  }
+
+  .chip-float {
+    animation: chipFloat 5s ease-in-out infinite;
+    will-change: transform;
+  }
+
+  /* Hero headline line — rises into place once on load (delay set inline) */
+  .hero-rise {
+    animation: heroRise 1s cubic-bezier(0.22, 1, 0.36, 1) backwards;
+  }
+
+  /* Hero glow — breathing pulse (overrides the inline centering transform) */
+  .hero-glow {
+    animation: heroGlowBreathe 7s ease-in-out infinite;
+    will-change: transform, opacity;
+  }
+
+  /* Experience BPM heart — gentle, perpetual double-thump */
+  .heartbeat {
+    animation: heartbeat 1.7s ease-in-out infinite;
+    transform-origin: center;
+    will-change: transform;
+  }
+
+  /* Interactive lift + lime glow on the card itself */
+  .chip-card {
+    transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+                box-shadow 0.35s ease;
+  }
+  .chip-card:hover {
+    transform: scale(1.07);
+    box-shadow: 0 14px 40px -8px rgb(var(--c-cta) / 0.45);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .chip-enter,
+    .chip-float,
+    .hero-rise,
+    .hero-glow,
+    .heartbeat,
+    .btn-sheen::after {
+      animation: none;
+    }
+  }
+
+  /* Primary button sheen — a soft lime light streak that sweeps on hover.
+     The streak lives in an ::after clipped to the button's rounded shape. */
+  .btn-sheen {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+  }
+  .btn-sheen::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 45%;
+    background: linear-gradient(
+      100deg,
+      transparent,
+      rgb(var(--c-pure) / 0.55),
+      transparent
+    );
+    transform: translateX(-130%) skewX(-18deg);
+    pointer-events: none;
+  }
+  .btn-sheen:hover::after {
+    animation: btnSheen 0.85s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .text-display {
+    @apply font-display uppercase tracking-tight leading-[0.95];
+  }
+
+  /* ── Themed surfaces (all backgrounds pull from --grad-*) ───────── */
+
+  .volt-glow {
+    background: var(--grad-volt-glow);
+    pointer-events: none;
+  }
+
+  .stat-card {
+    background: var(--grad-stat) padding-box,
+                var(--grad-stat-border) border-box;
+    border: 1px solid transparent;
+    @apply rounded-[22px];
+  }
+
+  .btn-primary-gradient {
+    background: var(--grad-btn-primary);
+  }
+
+  .card-surface {
+    background: var(--grad-card);
+  }
+
+  .card-surface-active {
+    background: var(--grad-card-active);
+  }
+
+  .exp-card {
+    background: var(--grad-exp);
+  }
+
+  /* CTA invitation card — lime fill with lit top edge + soft drop glow */
+  .cta-card {
+    background: rgb(var(--c-cta));
+    box-shadow:
+      inset 0 1px 0 rgb(var(--c-pure) / 0.22),
+      0 32px 80px -24px rgb(var(--c-cta) / 0.45);
+  }
+
+  .testimonial-quote-card {
+    background: var(--grad-quote);
+    box-shadow:
+      0 28px 70px -20px rgb(var(--c-black) / 0.75),
+      0 0 0 1px rgb(var(--c-pure) / 0.07),
+      inset 0 1px 0 rgb(var(--c-cream) / 0.12),
+      inset 0 0 40px rgb(var(--c-cta) / 0.04);
+  }
+
+  .testimonial-glow-pulse {
+    animation: testimonialGlow 7s ease-in-out infinite;
+    will-change: opacity;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .testimonial-glow-pulse {
+      animation: none;
+    }
   }
 }
