@@ -1,10 +1,19 @@
-import Image from "next/image";
-import Link from "next/link";
-import { Stagger, StaggerItem } from "@/components/ui";
-import { fadeUpSm } from "@/lib/motion";
-const logoImg = "https://res.cloudinary.com/djnnc4xvt/image/upload/q_auto/f_auto/v1781012242/logo_tcxn01.png";
+"use client";
 
-const NAV_LINKS = ["Home", "About", "Features", "Service", "Exercise"] as const;
+import Image from "next/image";
+import { Stagger, StaggerItem, useDemoDialog } from "@/components/ui";
+import { fadeUpSm } from "@/lib/motion";
+
+const logoImg =
+  "https://res.cloudinary.com/djnnc4xvt/image/upload/q_auto/f_auto/v1781012242/logo_tcxn01.png";
+
+const NAV_LINKS = [
+  { label: "Home",     href: "#home" },
+  { label: "About",    href: "#about" },
+  { label: "Features", href: "#features" },
+  { label: "Service",  href: "#service" },
+  { label: "Exercise", href: "#exercise" },
+] as const;
 
 function FacebookIcon() {
   return (
@@ -41,19 +50,21 @@ function XIcon() {
 }
 
 const SOCIAL_LINKS = [
-  { label: "Facebook", icon: FacebookIcon, boxed: true },
-  { label: "LinkedIn", icon: LinkedInIcon, boxed: true },
+  { label: "Facebook",  icon: FacebookIcon,  boxed: true },
+  { label: "LinkedIn",  icon: LinkedInIcon,  boxed: true },
   { label: "Instagram", icon: InstagramIcon, boxed: true },
-  { label: "X", icon: XIcon, boxed: false },
+  { label: "X",         icon: XIcon,         boxed: false },
 ] as const;
 
 export function Footer() {
+  const { open: openDemo } = useDemoDialog();
+
   return (
     <footer className="bg-black px-5 pb-14 pt-10 sm:px-6 sm:pb-16 md:px-6 md:pb-14 md:pt-6">
       <Stagger className="section-container grid gap-9 md:grid-cols-[1fr_auto_1fr] md:items-start md:gap-6 lg:gap-10" stagger={0.12}>
         {/* Brand */}
         <StaggerItem variants={fadeUpSm} className="text-center md:max-w-[300px] md:text-left">
-          <a href="#" className="inline-block">
+          <a href="#home" className="inline-block">
             <Image
               src={logoImg}
               alt="FiTusion"
@@ -73,10 +84,10 @@ export function Footer() {
 
           <div className="mt-4 flex items-center justify-center gap-3">
             {SOCIAL_LINKS.map(({ label, icon: Icon, boxed }) => (
-              <a
+              <button
                 key={label}
-                href="#"
                 aria-label={label}
+                onClick={openDemo}
                 className={
                   boxed
                     ? "flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-white/15 text-pure transition-colors hover:border-ctaGreen/60 hover:text-ctaGreen md:h-9 md:w-9"
@@ -84,7 +95,7 @@ export function Footer() {
                 }
               >
                 <Icon />
-              </a>
+              </button>
             ))}
           </div>
 
@@ -92,26 +103,26 @@ export function Footer() {
             {/* Mobile — balanced 3 + 2 rows */}
             <div className="flex flex-col items-center gap-3 md:hidden">
               <ul className="flex items-center justify-center gap-x-6">
-                {NAV_LINKS.slice(0, 3).map((link) => (
-                  <li key={link}>
-                    <Link
-                      href="#"
+                {NAV_LINKS.slice(0, 3).map(({ label, href }) => (
+                  <li key={label}>
+                    <a
+                      href={href}
                       className="inline-block py-0.5 text-[13px] text-bone/75 transition-colors hover:text-pure"
                     >
-                      {link}
-                    </Link>
+                      {label}
+                    </a>
                   </li>
                 ))}
               </ul>
               <ul className="flex items-center justify-center gap-x-6">
-                {NAV_LINKS.slice(3).map((link) => (
-                  <li key={link}>
-                    <Link
-                      href="#"
+                {NAV_LINKS.slice(3).map(({ label, href }) => (
+                  <li key={label}>
+                    <a
+                      href={href}
                       className="inline-block py-0.5 text-[13px] text-bone/75 transition-colors hover:text-pure"
                     >
-                      {link}
-                    </Link>
+                      {label}
+                    </a>
                   </li>
                 ))}
               </ul>
@@ -119,14 +130,14 @@ export function Footer() {
 
             {/* Desktop — single row */}
             <ul className="hidden items-center justify-center gap-x-6 md:flex">
-              {NAV_LINKS.map((link) => (
-                <li key={link}>
-                  <Link
-                    href="#"
+              {NAV_LINKS.map(({ label, href }) => (
+                <li key={label}>
+                  <a
+                    href={href}
                     className="inline-block py-0.5 text-[13px] text-bone/75 transition-colors hover:text-pure"
                   >
-                    {link}
-                  </Link>
+                    {label}
+                  </a>
                 </li>
               ))}
             </ul>
@@ -140,7 +151,12 @@ export function Footer() {
             <p>Monday-Sunday</p>
             <p>8:00 AM - 5:00 PM</p>
             <p className="pt-2">E-mail</p>
-            <p>Fitfusion@gmail.com</p>
+            <button
+              onClick={openDemo}
+              className="text-bone/75 hover:text-pure transition-colors underline underline-offset-2 decoration-bone/30"
+            >
+              Fitfusion@gmail.com
+            </button>
           </div>
         </StaggerItem>
       </Stagger>

@@ -1,6 +1,7 @@
 export { Button } from "./Button";
 export { Card } from "./Card";
 export { CountUp } from "./CountUp";
+export { DemoDialogProvider, useDemoDialog } from "./DemoDialog";
 export { IconBadge } from "./IconBadge";
 export { Marquee } from "./Marquee";
 export { Parallax } from "./Parallax";

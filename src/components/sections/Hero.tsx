@@ -1,7 +1,9 @@
+"use client";
+
 import Image from "next/image";
 import { type CSSProperties, type ReactNode } from "react";
 import { cn } from "@/lib/utils";
-import { StatChip, Button, Marquee, Parallax } from "@/components/ui";
+import { StatChip, Button, Marquee, Parallax, useDemoDialog } from "@/components/ui";
 
 const heroImg = "https://res.cloudinary.com/djnnc4xvt/image/upload/q_auto/f_auto/v1781012246/hero_uqu6tt.png";
 const timeIcon = "https://res.cloudinary.com/djnnc4xvt/image/upload/q_auto/f_auto/v1781012244/time_icon_foqrpd.png";
@@ -99,6 +101,7 @@ function AnimatedChip({
 }
 
 export function Hero() {
+  const { open: openDemo } = useDemoDialog();
   return (
     <>
       {/* ── Hero section ─────────────────────────────────────── */}
@@ -216,7 +219,7 @@ export function Hero() {
           {/* Bottom row: social proof left, CTA right */}
           <div className="absolute bottom-0 inset-x-0 z-40 flex items-end justify-between px-10 md:px-16 pb-10">
             <SocialProof />
-            <Button variant="primary" arrow>
+            <Button variant="primary" arrow onClick={openDemo}>
               Let&apos;s Start
             </Button>
           </div>
@@ -295,7 +298,7 @@ export function Hero() {
           {/* Below the image: social proof + CTA */}
           <div className="relative z-30 mt-8 flex flex-col items-center gap-6">
             <SocialProof />
-            <Button variant="primary" arrow className="w-full justify-center">
+            <Button variant="primary" arrow className="w-full justify-center" onClick={openDemo}>
               Let&apos;s Start
             </Button>
           </div>

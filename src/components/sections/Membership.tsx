@@ -1,4 +1,6 @@
-import { SectionHeading, Stagger, StaggerItem, Button, Reveal } from "@/components/ui";
+"use client";
+
+import { SectionHeading, Stagger, StaggerItem, Button, Reveal, useDemoDialog } from "@/components/ui";
 import { fadeUpSm } from "@/lib/motion";
 import { Check, Star, Zap, Crown } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
@@ -80,7 +82,8 @@ function PlanCard({
   elite,
   features,
   cta,
-}: (typeof PLANS)[0]) {
+  onCtaClick,
+}: (typeof PLANS)[0] & { onCtaClick: () => void }) {
   return (
     <article
       className={cn(
@@ -174,6 +177,7 @@ function PlanCard({
       <Button
         variant={highlight ? "primary" : "secondary"}
         className={cn("w-full justify-center", elite && "border-amber-500/40 bg-amber-500/10 text-amber-400 hover:bg-amber-500/20 hover:border-amber-400/60")}
+        onClick={onCtaClick}
       >
         {cta}
       </Button>
@@ -182,6 +186,7 @@ function PlanCard({
 }
 
 export function Membership() {
+  const { open: openDemo } = useDemoDialog();
   return (
     <section className="section">
       <SectionHeading
@@ -198,7 +203,7 @@ export function Membership() {
       >
         {PLANS.map((plan) => (
           <StaggerItem key={plan.name} variants={fadeUpSm}>
-            <PlanCard {...plan} />
+            <PlanCard {...plan} onCtaClick={openDemo} />
           </StaggerItem>
         ))}
       </Stagger>

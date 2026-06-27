@@ -1,11 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { Reveal, Stagger, StaggerItem } from "@/components/ui";
+import { Reveal, Stagger, StaggerItem, useDemoDialog } from "@/components/ui";
 import { fadeUp, fadeUpSm, popIn } from "@/lib/motion";
 
 export function Cta() {
   const [email, setEmail] = useState("");
+  const { open: openDemo } = useDemoDialog();
 
   return (
     <section className="bg-black px-6 pb-16 pt-8 sm:pb-20 sm:pt-12">
@@ -39,6 +40,7 @@ export function Cta() {
               />
               <button
                 type="button"
+                onClick={openDemo}
                 className="btn-sheen h-[52px] shrink-0 rounded-2xl bg-black px-8 text-sm font-bold text-pure transition-opacity hover:opacity-90"
               >
                 Join Now

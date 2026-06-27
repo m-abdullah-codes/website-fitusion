@@ -1,3 +1,4 @@
+import { DemoDialogProvider } from "@/components/ui";
 import { Navbar } from "@/components/sections/Navbar";
 import { Hero } from "@/components/sections/Hero";
 import { HowItWorks } from "@/components/sections/HowItWorks";
@@ -17,23 +18,33 @@ import { Footer } from "@/components/sections/Footer";
 
 export default function Home() {
   return (
-    <>
+    <DemoDialogProvider>
       <Navbar />
-      <Hero />
-      <HowItWorks />
+      <div id="home">
+        <Hero />
+      </div>
+      <div id="about" className="scroll-mt-[68px]">
+        <HowItWorks />
+      </div>
       <Benefits />
-      <Features />
-      <Discover />
-      <Courses />
+      <div id="features" className="scroll-mt-[68px]">
+        <Features />
+      </div>
+      <div id="exercise" className="scroll-mt-[68px]">
+        <Discover />
+        <Courses />
+      </div>
       <EquipmentTeaser />
       <PlanPreview />
       <Experience />
       <Trainers />
       <Testimonials />
-      <Membership />
+      <div id="service" className="scroll-mt-[68px]">
+        <Membership />
+      </div>
       <InstallApp />
       <Cta />
       <Footer />
-    </>
+    </DemoDialogProvider>
   );
 }
