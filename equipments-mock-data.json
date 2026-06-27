@@ -1,0 +1,1354 @@
+{
+  "meta": {
+    "source": "Muscle & Strength (muscleandstrength.com)",
+    "description": "Mock exercise data for gym management SaaS pitch. Covers 8 muscle groups with 50 exercises including premium machine movements. Each exercise includes source URL, equipment, level, target area, and type.",
+    "total_exercises": 50,
+    "muscle_groups": [
+      "Chest",
+      "Back",
+      "Shoulders",
+      "Biceps",
+      "Triceps",
+      "Legs",
+      "Abs",
+      "Calves"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ex_001",
+      "name": "Barbell Bench Press",
+      "muscle_group": "Chest",
+      "target_area": "Chest",
+      "secondary_muscles": [
+        "Shoulders",
+        "Triceps"
+      ],
+      "equipment": "Barbell",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/barbell-bench-press.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/barbell-bench-press_0.jpg",
+      "youtube_url": "https://youtu.be/tuwHzzPdaGc?si=mRxK3RFc55b5x-SP",
+      "description": "The king of chest exercises. Lie on a flat bench, grip the barbell slightly wider than shoulder-width, lower it to your chest, and press back up. Trains the entire pectoral with heavy compound overload.",
+      "instructions": [
+        "Set barbell in rack at arm's-length height and load desired weight.",
+        "Lie flat on bench, retract shoulder blades, plant feet firmly on floor.",
+        "Grip bar slightly wider than shoulder-width with a full thumb wrap.",
+        "Unrack bar and position it over lower chest.",
+        "Lower bar in a controlled arc to nipple line.",
+        "Drive bar back up in a straight line to lockout."
+      ],
+      "tips": "Keep shoulder blades pinched together throughout. Use leg drive by pressing feet into the floor."
+    },
+    {
+      "id": "ex_002",
+      "name": "Dumbbell Bench Press",
+      "muscle_group": "Chest",
+      "target_area": "Chest",
+      "secondary_muscles": [
+        "Shoulders",
+        "Triceps"
+      ],
+      "equipment": "Dumbbell",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/dumbbell-bench-press.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/dumbbell-bench-press_0.jpg",
+      "youtube_url": "https://youtu.be/dGqI0Z5ul4k?si=tY0pXIRLPdIdljPy",
+      "description": "A chest-building staple that demands greater shoulder stability than the barbell version. Each arm works independently, which helps correct strength imbalances.",
+      "instructions": [
+        "Pick dumbbells off floor with neutral grip and sit on the bench.",
+        "Kick dumbbells up with knees as you lie back.",
+        "Hold dumbbells at chest level, palms facing feet.",
+        "Press dumbbells up to lockout, slightly angling them inward.",
+        "Slowly lower dumbbells until they are at chest level.",
+        "Repeat for desired reps."
+      ],
+      "tips": "Don't let dumbbells touch at the top — keep constant tension on the chest."
+    },
+    {
+      "id": "ex_003",
+      "name": "Incline Dumbbell Bench Press",
+      "muscle_group": "Chest",
+      "target_area": "Upper Chest",
+      "secondary_muscles": [
+        "Shoulders",
+        "Triceps"
+      ],
+      "equipment": "Dumbbell",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/incline-dumbbell-bench-press.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/incline-dumbbell-bench-press_0.jpg",
+      "youtube_url": "https://youtu.be/8nNi8jbbUPE",
+      "description": "Sets the bench at 30–45 degrees to shift emphasis to the upper/clavicular pec head, an area often underdeveloped. A must-have for balanced chest development.",
+      "instructions": [
+        "Set adjustable bench to 30–45 degrees.",
+        "Sit with dumbbells resting on thighs, kick them up as you lie back.",
+        "Position dumbbells at shoulder height with palms facing forward.",
+        "Press dumbbells upward and slightly together.",
+        "Lower slowly until elbows are at 90 degrees.",
+        "Repeat for desired reps."
+      ],
+      "tips": "Higher incline (45°) hits more anterior deltoid; lower incline (30°) keeps more focus on pecs."
+    },
+    {
+      "id": "ex_004",
+      "name": "Chest Dip",
+      "muscle_group": "Chest",
+      "target_area": "Lower Chest",
+      "secondary_muscles": [
+        "Triceps",
+        "Shoulders"
+      ],
+      "equipment": "Bodyweight",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Intermediate",
+      "source_url": "https://www.muscleandstrength.com/exercises/chest-dip.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/chest-dip.jpg",
+      "youtube_url": "https://youtu.be/FG1ENBFsdHU",
+      "description": "A vertical pressing movement that targets the lower chest similarly to decline bench press. Lean forward to shift emphasis from triceps to pecs.",
+      "instructions": [
+        "Grip parallel bars and jump or step up to starting position.",
+        "Lean torso forward ~30 degrees, cross legs behind you.",
+        "Lower body by bending elbows until forearms are nearly parallel with floor.",
+        "Drive back up through palms to starting position.",
+        "Avoid locking elbows fully at top.",
+        "Repeat for desired reps."
+      ],
+      "tips": "More forward lean = more chest. Upright posture = more triceps."
+    },
+    {
+      "id": "ex_005",
+      "name": "Cable Crossover (Upper Chest)",
+      "muscle_group": "Chest",
+      "target_area": "Upper Chest",
+      "secondary_muscles": [
+        "Shoulders"
+      ],
+      "equipment": "Cable",
+      "exercise_type": "Strength",
+      "mechanics": "Isolation",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/cable-crossovers-(upper-chest).html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/cable-crossovers-upper-chest.jpg",
+      "youtube_url": "https://youtu.be/taI4XduLpTk",
+      "description": "Set the pulleys low and sweep hands upward to bring handles together at head height. Directly targets the upper pec fibers that are hard to isolate with pressing movements.",
+      "instructions": [
+        "Set both cable pulleys to their lowest position.",
+        "Grab handles, step forward and split stance.",
+        "With slight elbow bend, sweep arms upward in a circular arc.",
+        "Bring handles together at eye level, squeezing chest hard.",
+        "Slowly return to start with arms wide.",
+        "Repeat for desired reps."
+      ],
+      "tips": "Focus on chest contraction, not arm strength. Form is more important than weight here."
+    },
+    {
+      "id": "ex_006",
+      "name": "Bent Over Row (Barbell)",
+      "muscle_group": "Back",
+      "target_area": "Upper Back",
+      "secondary_muscles": [
+        "Biceps",
+        "Lower Back",
+        "Core"
+      ],
+      "equipment": "Barbell",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/bent-over-barbell-row.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/bent-over-row.jpg",
+      "youtube_url": "https://youtu.be/paCfxhgW6bI",
+      "description": "One of the best overall back builders. Targets the lats, rhomboids, and traps while also working the core and biceps. Use a double overhand grip and hinge at the hips.",
+      "instructions": [
+        "Stand over barbell with feet shoulder-width apart.",
+        "Hinge at hips until torso is roughly parallel to floor.",
+        "Grip bar with double overhand grip, just outside shins.",
+        "Drive elbows behind body, pulling bar toward belly button.",
+        "Squeeze shoulder blades together at top.",
+        "Lower bar slowly and repeat for desired reps."
+      ],
+      "tips": "Keep back flat. Don't use momentum — control every rep."
+    },
+    {
+      "id": "ex_007",
+      "name": "One Arm Dumbbell Row",
+      "muscle_group": "Back",
+      "target_area": "Lats",
+      "secondary_muscles": [
+        "Biceps",
+        "Rear Deltoid"
+      ],
+      "equipment": "Dumbbell",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-row.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/one-arm-dumbbell-row.jpg",
+      "youtube_url": "https://youtu.be/YZgVEy6cmaY",
+      "description": "A unilateral back exercise that allows a long range of motion and easy load progression. Support yourself on a bench and row the dumbbell to your hip.",
+      "instructions": [
+        "Place one hand and knee on a flat bench for support.",
+        "Hold dumbbell in free hand with neutral grip, arm fully extended.",
+        "Drive elbow back and up, pulling dumbbell toward hip.",
+        "Squeeze lat and upper back at the top.",
+        "Lower dumbbell slowly to full arm extension.",
+        "Repeat for desired reps, then switch sides."
+      ],
+      "tips": "Think about driving your elbow, not your hand, to maximize lat engagement."
+    },
+    {
+      "id": "ex_008",
+      "name": "Lat Pulldown",
+      "muscle_group": "Back",
+      "target_area": "Lats",
+      "secondary_muscles": [
+        "Biceps",
+        "Upper Back"
+      ],
+      "equipment": "Cable Machine",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/lat-pull-down.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/lat-pull-down.jpg",
+      "youtube_url": "https://youtu.be/iKrKgWR9wbY",
+      "description": "The machine alternative to pull-ups. Great for beginners building lat strength before pull-ups. Attach a wide bar, depress shoulder blades, then pull bar to upper chest.",
+      "instructions": [
+        "Adjust knee pad so thighs are snug under it.",
+        "Grip wide bar with overhand grip, hands wider than shoulders.",
+        "Depress and retract shoulder blades first.",
+        "Pull bar down toward upper chest, driving elbows toward hips.",
+        "Squeeze lats fully at the bottom.",
+        "Slowly return bar to overhead and repeat."
+      ],
+      "tips": "Initiate with your shoulder blades, not your hands. Lean back slightly (10–15 degrees)."
+    },
+    {
+      "id": "ex_009",
+      "name": "Seated Cable Row",
+      "muscle_group": "Back",
+      "target_area": "Middle Back",
+      "secondary_muscles": [
+        "Biceps",
+        "Rear Deltoid"
+      ],
+      "equipment": "Cable",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/seated-row.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/seated-cable-row.jpg",
+      "youtube_url": "https://youtu.be/GZbfZ033f74",
+      "description": "A seated horizontal pull that targets the middle back and lats. Using a close-grip handle, row toward your abdomen, maintaining a tall, upright torso throughout.",
+      "instructions": [
+        "Sit at cable row machine and place feet on footpads.",
+        "Grab close-grip handle with both hands, arms extended.",
+        "Sit tall with slight forward lean at start.",
+        "Row handle to abdomen, pulling elbows back.",
+        "Squeeze shoulder blades together at peak contraction.",
+        "Extend arms slowly, allow torso to lean forward slightly, and repeat."
+      ],
+      "tips": "Avoid excessive torso rocking — keep movement in the arms and back."
+    },
+    {
+      "id": "ex_010",
+      "name": "Wide Grip Pull-Up",
+      "muscle_group": "Back",
+      "target_area": "Lats",
+      "secondary_muscles": [
+        "Biceps",
+        "Core"
+      ],
+      "equipment": "Bodyweight",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Intermediate",
+      "source_url": "https://www.muscleandstrength.com/exercises/wide-grip-pull-up.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/wide-grip-pull-up-1.jpg",
+      "youtube_url": "https://youtu.be/5oxviYmdHCY",
+      "description": "The ultimate bodyweight back builder. Grip the bar wider than shoulders with an overhand grip and pull your chin above the bar, squeezing the lats at the top.",
+      "instructions": [
+        "Jump or step up to a pull-up bar.",
+        "Grip bar overhand, hands wider than shoulder-width.",
+        "Hang at full arm extension — this is the start.",
+        "Pull chin toward bar by driving elbows toward hips.",
+        "Squeeze lats at top when chin clears the bar.",
+        "Lower slowly to dead hang and repeat."
+      ],
+      "tips": "Use a hollow body position (core tight, legs slightly forward) to reduce lower back stress."
+    },
+    {
+      "id": "ex_011",
+      "name": "Military Press (Overhead Press)",
+      "muscle_group": "Shoulders",
+      "target_area": "Deltoids",
+      "secondary_muscles": [
+        "Triceps",
+        "Core",
+        "Traps"
+      ],
+      "equipment": "Barbell",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/military-press.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/military-overhead-press.jpg",
+      "youtube_url": "https://youtu.be/j7ULT6dznNc",
+      "description": "The king of shoulder exercises. Press a barbell from shoulder height overhead while standing. Builds all three deltoid heads plus the traps and triceps.",
+      "instructions": [
+        "Set barbell in rack at shoulder height and load weight.",
+        "Step under bar, grip just outside shoulders with overhand grip.",
+        "Unrack and hold bar at collarbone, elbows forward.",
+        "Brace abs, squeeze glutes, press bar straight overhead.",
+        "Lock out elbows at top — ears should be in line with biceps.",
+        "Lower bar back to collarbone and repeat."
+      ],
+      "tips": "Don't lean back excessively. Keep the bar path vertical and core braced throughout."
+    },
+    {
+      "id": "ex_012",
+      "name": "Dumbbell Lateral Raise",
+      "muscle_group": "Shoulders",
+      "target_area": "Side (Lateral) Deltoid",
+      "secondary_muscles": [
+        "Traps"
+      ],
+      "equipment": "Dumbbell",
+      "exercise_type": "Strength",
+      "mechanics": "Isolation",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/dumbbell-lateral-raise.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/dumbbell-lateral-raise.jpg",
+      "youtube_url": "https://youtu.be/3VcKaXpzqRo",
+      "description": "The most effective isolation move for the lateral (side) deltoid head, which gives shoulders their width. Stand and raise dumbbells out to your sides to shoulder level.",
+      "instructions": [
+        "Stand with dumbbells in each hand at your sides.",
+        "Keep a slight bend in elbows throughout.",
+        "Raise dumbbells out to sides in a controlled arc.",
+        "Lift until arms are parallel with floor — no higher.",
+        "Hold briefly at the top, then lower slowly.",
+        "Repeat for desired reps."
+      ],
+      "tips": "Slightly tilt pinky up at the top (like pouring a jug) to better activate lateral delts."
+    },
+    {
+      "id": "ex_013",
+      "name": "Seated Arnold Press",
+      "muscle_group": "Shoulders",
+      "target_area": "Deltoids (All Heads)",
+      "secondary_muscles": [
+        "Triceps"
+      ],
+      "equipment": "Dumbbell",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/seated-arnold-press.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/seated-arnold-press-thumb.jpg",
+      "youtube_url": "https://youtu.be/hmnZKRpYaV8",
+      "description": "Named after Arnold Schwarzenegger, this rotational press targets all three deltoid heads. Start with palms facing you, rotate and press overhead in one fluid motion.",
+      "instructions": [
+        "Sit on bench set at 90 degrees with dumbbells at shoulder height, palms facing you.",
+        "Press dumbbells up while rotating palms forward.",
+        "Fully extend arms overhead with palms now facing away.",
+        "Reverse the motion as you lower — rotate palms back inward.",
+        "Stop when elbows are at 90 degrees and palms face you again.",
+        "Repeat for desired reps."
+      ],
+      "tips": "Control the rotation — don't rush it. The rotation is what makes this movement unique."
+    },
+    {
+      "id": "ex_014",
+      "name": "Seated Dumbbell Shoulder Press",
+      "muscle_group": "Shoulders",
+      "target_area": "Deltoids",
+      "secondary_muscles": [
+        "Triceps",
+        "Traps"
+      ],
+      "equipment": "Dumbbell",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/seated-dumbbell-press.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/seated-dumbbell-press-1.jpg",
+      "youtube_url": "https://youtu.be/FRxZ6wr5bpA",
+      "description": "Seated overhead press with dumbbells provides more stability than standing and allows each shoulder to work independently. Great for building symmetrical deltoid mass.",
+      "instructions": [
+        "Sit on a bench with back support set at 90 degrees.",
+        "Hold dumbbells at shoulder height, elbows at 90 degrees.",
+        "Press dumbbells overhead until arms are nearly locked out.",
+        "Lower dumbbells slowly back to shoulder height.",
+        "Repeat for desired reps."
+      ],
+      "tips": "Keep back flat against the pad. Avoid pressing the weights inward — keep them in line with shoulders."
+    },
+    {
+      "id": "ex_015",
+      "name": "Bent Over Dumbbell Reverse Fly",
+      "muscle_group": "Shoulders",
+      "target_area": "Rear Deltoid",
+      "secondary_muscles": [
+        "Rhomboids",
+        "Traps"
+      ],
+      "equipment": "Dumbbell",
+      "exercise_type": "Strength",
+      "mechanics": "Isolation",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/bent-over-dumbbell-reverse-fly.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/bent-over-rear-delt-raise.jpg",
+      "youtube_url": "https://youtu.be/Fgz_FdzDukE",
+      "description": "Targets the often-neglected rear deltoids which are crucial for posture and shoulder balance. Hinge forward and fly the dumbbells out to your sides.",
+      "instructions": [
+        "Hold a dumbbell in each hand and hinge forward at hips to ~45 degrees.",
+        "Let dumbbells hang with palms facing each other.",
+        "Keep a slight bend in elbows.",
+        "Raise both dumbbells out to your sides in a wide arc.",
+        "Squeeze rear delts and rhomboids at the top.",
+        "Lower slowly and repeat."
+      ],
+      "tips": "Use very light weight — rear delts are a small muscle. Quality beats quantity here."
+    },
+    {
+      "id": "ex_016",
+      "name": "Standing Barbell Curl",
+      "muscle_group": "Biceps",
+      "target_area": "Biceps",
+      "secondary_muscles": [
+        "Forearms",
+        "Brachialis"
+      ],
+      "equipment": "Barbell",
+      "exercise_type": "Strength",
+      "mechanics": "Isolation",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/standing-barbell-curl.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/barbell-curl.jpg",
+      "youtube_url": "https://youtu.be/kwG2ipFRgfo",
+      "description": "The fundamental bicep exercise. Hold a barbell underhand with arms extended and curl it up toward your chin while keeping elbows pinned to your sides.",
+      "instructions": [
+        "Stand upright holding a barbell with underhand (supinated) grip, shoulder-width.",
+        "Let arms hang at full extension — this is the start.",
+        "Curl the bar upward, bending only at the elbows.",
+        "Bring bar up to chin level.",
+        "Squeeze biceps hard at the top.",
+        "Lower slowly to full extension and repeat."
+      ],
+      "tips": "No swinging. If you have to use body momentum, the weight is too heavy."
+    },
+    {
+      "id": "ex_017",
+      "name": "Dumbbell Hammer Curl",
+      "muscle_group": "Biceps",
+      "target_area": "Biceps / Brachialis",
+      "secondary_muscles": [
+        "Forearms"
+      ],
+      "equipment": "Dumbbell",
+      "exercise_type": "Strength",
+      "mechanics": "Isolation",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/standing-hammer-curl.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/standing-hammer-curl.jpg",
+      "youtube_url": "https://youtu.be/TwD-YGVP4Bk",
+      "description": "A neutral-grip curl variation that targets the brachialis (under the bicep) and forearm muscles, adding thickness to the arms. Palms face each other throughout the entire movement.",
+      "instructions": [
+        "Stand holding a dumbbell in each hand with neutral grip (thumbs up).",
+        "Let arms hang at sides fully extended.",
+        "Curl both dumbbells simultaneously, keeping palms facing each other.",
+        "Lift until thumbs are near shoulders.",
+        "Squeeze briefly at top, then lower slowly.",
+        "Repeat for desired reps."
+      ],
+      "tips": "Can be done alternating or simultaneously. Alternating allows for slightly more focus per arm."
+    },
+    {
+      "id": "ex_018",
+      "name": "Incline Dumbbell Curl",
+      "muscle_group": "Biceps",
+      "target_area": "Biceps (Long Head)",
+      "secondary_muscles": [
+        "Forearms"
+      ],
+      "equipment": "Dumbbell",
+      "exercise_type": "Strength",
+      "mechanics": "Isolation",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/incline-dumbbell-curl.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/incline-dumbbell-curl-thumb.jpg",
+      "youtube_url": "https://youtu.be/UeleXjsE-98",
+      "description": "By curling from an incline bench, your arms hang behind your torso, placing the long head of the bicep under a greater stretch. This produces a more peaked bicep over time.",
+      "instructions": [
+        "Set an incline bench to 45–60 degrees.",
+        "Sit back on bench with a dumbbell in each hand.",
+        "Let arms hang at sides, elbows pointing down.",
+        "Curl dumbbells upward without moving upper arms.",
+        "Supinate (rotate) wrists at top so pinky fingers lead.",
+        "Lower slowly to full hang and repeat."
+      ],
+      "tips": "The stretch at the bottom is the key benefit — don't rush through it."
+    },
+    {
+      "id": "ex_019",
+      "name": "Cable Bicep Curl",
+      "muscle_group": "Biceps",
+      "target_area": "Biceps",
+      "secondary_muscles": [
+        "Forearms"
+      ],
+      "equipment": "Cable",
+      "exercise_type": "Strength",
+      "mechanics": "Isolation",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/cable-curl.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/cable-curl.jpg",
+      "youtube_url": "https://youtu.be/NFzTWp2qpiE",
+      "description": "Uses a cable machine with a straight bar attachment to maintain constant tension on the bicep throughout the full range of motion — an advantage over free weights.",
+      "instructions": [
+        "Attach a straight bar to the low pulley of a cable machine.",
+        "Stand close to the machine and grab bar with underhand grip.",
+        "Keep elbows tucked at sides.",
+        "Curl bar upward to shoulder height.",
+        "Squeeze biceps hard at top.",
+        "Lower to full extension and repeat."
+      ],
+      "tips": "Cable tension is especially strong at the bottom of the movement — feel the stretch there."
+    },
+    {
+      "id": "ex_020",
+      "name": "Preacher Curl (EZ Bar)",
+      "muscle_group": "Biceps",
+      "target_area": "Biceps",
+      "secondary_muscles": [
+        "Forearms"
+      ],
+      "equipment": "EZ Bar",
+      "exercise_type": "Strength",
+      "mechanics": "Isolation",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/ez-bar-preacher-curl.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/ez-bar-preacher-curl.jpg",
+      "youtube_url": "https://youtu.be/fIWP-FRFNU0",
+      "description": "The preacher bench locks the upper arms in place, isolating the bicep completely and eliminating cheating. Great for adding mass and improving bicep peak.",
+      "instructions": [
+        "Adjust preacher bench seat so upper arms rest flat on pad.",
+        "Grip EZ bar with underhand grip.",
+        "Lower bar to near-full extension.",
+        "Curl bar up to chin height.",
+        "Squeeze biceps at the top.",
+        "Lower slowly — don't drop the weight."
+      ],
+      "tips": "Control the eccentric (lowering) phase — this is where the most muscle growth occurs."
+    },
+    {
+      "id": "ex_021",
+      "name": "Tricep Pushdown (Straight Bar)",
+      "muscle_group": "Triceps",
+      "target_area": "Triceps",
+      "secondary_muscles": [
+        "Forearms"
+      ],
+      "equipment": "Cable",
+      "exercise_type": "Strength",
+      "mechanics": "Isolation",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/tricep-extension.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/straight-bar-tricep-extension-1.jpg",
+      "youtube_url": "https://youtu.be/mpZ9VRisAyw",
+      "description": "Classic cable isolation move for the triceps. Attach a straight bar to the high pulley and push down to full arm extension, squeezing all three tricep heads.",
+      "instructions": [
+        "Attach straight bar to high cable pulley.",
+        "Stand facing machine and grip bar overhand, elbows at sides.",
+        "Keep upper arms pinned to torso throughout.",
+        "Push bar down until arms are fully extended.",
+        "Squeeze triceps hard at full extension.",
+        "Slowly return to start and repeat."
+      ],
+      "tips": "Slightly lean forward for better leverage. Elbows must not flare out."
+    },
+    {
+      "id": "ex_022",
+      "name": "Skull Crusher (EZ Bar)",
+      "muscle_group": "Triceps",
+      "target_area": "Triceps (Long Head)",
+      "secondary_muscles": [],
+      "equipment": "EZ Bar",
+      "exercise_type": "Strength",
+      "mechanics": "Isolation",
+      "level": "Intermediate",
+      "source_url": "https://www.muscleandstrength.com/exercises/ez-bar-skullcrusher.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/ez-bar-skullcrusher_0.jpg",
+      "youtube_url": "https://youtu.be/K6MSN4hCDM4",
+      "description": "Lie on a flat bench and lower the EZ bar toward your forehead, then press back up. One of the best movements for isolating the tricep long head, which makes up the majority of arm mass.",
+      "instructions": [
+        "Lie on a flat bench holding an EZ bar with a narrow overhand grip.",
+        "Start with arms extended perpendicular to chest.",
+        "Lower bar toward forehead by bending only at elbows.",
+        "Stop just before bar touches forehead.",
+        "Press back up to full extension.",
+        "Repeat for desired reps."
+      ],
+      "tips": "Keep upper arms vertical and stationary throughout. Only forearms move."
+    },
+    {
+      "id": "ex_023",
+      "name": "Seated Dumbbell Tricep Extension",
+      "muscle_group": "Triceps",
+      "target_area": "Triceps (Long Head)",
+      "secondary_muscles": [],
+      "equipment": "Dumbbell",
+      "exercise_type": "Strength",
+      "mechanics": "Isolation",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/two-arm-dumbbell-extension.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/seated-overhead-dumbbell-tricep-extension_0.jpg",
+      "youtube_url": "https://youtu.be/LlCFtWCQc5s",
+      "description": "Sitting upright, hold a dumbbell overhead with both hands and lower it behind your head. Excellent for stretching and loading the long head of the tricep, which is often undertrained.",
+      "instructions": [
+        "Set bench to 90 degrees and sit upright.",
+        "Grip one dumbbell with both hands overlapping the top plate.",
+        "Press dumbbell overhead to full arm extension.",
+        "Lower dumbbell behind head by bending elbows.",
+        "Stop when forearms are at parallel or slightly below.",
+        "Drive dumbbell back up to full extension and repeat."
+      ],
+      "tips": "Keep elbows pointing straight up and avoid flaring. Brace abs to avoid arching."
+    },
+    {
+      "id": "ex_024",
+      "name": "Dumbbell Tricep Kickback",
+      "muscle_group": "Triceps",
+      "target_area": "Triceps (Lateral Head)",
+      "secondary_muscles": [],
+      "equipment": "Dumbbell",
+      "exercise_type": "Strength",
+      "mechanics": "Isolation",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/tricep-kickback.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/dumbbell-tricep-kickback.jpg",
+      "youtube_url": "https://youtu.be/6SS6K3lAwZ8",
+      "description": "A finishing move for triceps. Hinge forward, keep upper arm parallel to ground, and extend the forearm backward. Creates a strong contraction in the lateral tricep head.",
+      "instructions": [
+        "Hold a dumbbell and hinge forward at hips.",
+        "Bring working arm's upper arm parallel to floor, elbow bent at 90 degrees.",
+        "Extend forearm backward until arm is fully straight.",
+        "Squeeze tricep hard at full extension.",
+        "Bend elbow to return to start.",
+        "Repeat for desired reps, then switch arms."
+      ],
+      "tips": "Don't swing the weight. Use a very slow controlled motion for peak contraction."
+    },
+    {
+      "id": "ex_025",
+      "name": "Close Grip Bench Press",
+      "muscle_group": "Triceps",
+      "target_area": "Triceps",
+      "secondary_muscles": [
+        "Chest",
+        "Shoulders"
+      ],
+      "equipment": "Barbell",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Intermediate",
+      "source_url": "https://www.muscleandstrength.com/exercises/close-grip-bench-press.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/close-grip-barbell-bench-press.jpg",
+      "youtube_url": "https://youtu.be/j-NhORwJDb4",
+      "description": "A compound pressing movement that shifts the primary emphasis from the chest to the triceps by using a narrower grip. Great for adding overall tricep size and pressing strength.",
+      "instructions": [
+        "Lie on a flat bench and grip barbell narrower than shoulder-width.",
+        "Unrack bar and hold directly over chest.",
+        "Lower bar to lower chest while keeping elbows tucked close to body.",
+        "Press bar back up to full arm extension.",
+        "Squeeze triceps at top.",
+        "Repeat for desired reps."
+      ],
+      "tips": "Hands should still be about shoulder-width — going too narrow stresses wrists unnecessarily."
+    },
+    {
+      "id": "ex_026",
+      "name": "Barbell Back Squat",
+      "muscle_group": "Legs",
+      "target_area": "Quadriceps / Glutes",
+      "secondary_muscles": [
+        "Hamstrings",
+        "Lower Back",
+        "Core"
+      ],
+      "equipment": "Barbell",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/squat.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/barbell-back-squat.jpg",
+      "youtube_url": "https://youtu.be/R2dMsNhN3DE",
+      "description": "The most important lower body exercise in existence. Load a barbell on your traps and squat to parallel depth. Builds the entire lower body and releases anabolic hormones.",
+      "instructions": [
+        "Set barbell just below shoulder height in squat rack.",
+        "Step under bar so it rests on upper traps (not neck).",
+        "Grip bar wide for stability and stand with feet shoulder-width apart.",
+        "Unrack bar and take two steps back.",
+        "Squat down — hips back and down, knees tracking over toes.",
+        "Drive back up through heels once thighs reach parallel."
+      ],
+      "tips": "Eyes forward, chest tall. Push knees out in line with toes throughout."
+    },
+    {
+      "id": "ex_027",
+      "name": "Romanian Deadlift (Barbell)",
+      "muscle_group": "Legs",
+      "target_area": "Hamstrings / Glutes",
+      "secondary_muscles": [
+        "Lower Back",
+        "Core"
+      ],
+      "equipment": "Barbell",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/stiff-leg-deadlift-aka-romanian-deadlift.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/stiff-leg-deadlifts.jpg",
+      "youtube_url": "https://youtu.be/CkrqLaDGvOA",
+      "description": "The premier hamstring and glute builder using a hip-hinge pattern. Unlike a regular deadlift, the RDL keeps knees slightly bent and focuses on the stretch in the posterior chain.",
+      "instructions": [
+        "Stand holding barbell with overhand grip, hip-width stance.",
+        "Keep soft bend in knees throughout.",
+        "Hinge at hips and push them backward as bar lowers.",
+        "Lower bar along front of legs until you feel a strong hamstring stretch.",
+        "Drive hips forward to return to standing.",
+        "Squeeze glutes at top and repeat."
+      ],
+      "tips": "Keep bar close to your legs the entire time. Never round the lower back."
+    },
+    {
+      "id": "ex_028",
+      "name": "Leg Press (Machine)",
+      "muscle_group": "Legs",
+      "target_area": "Quadriceps",
+      "secondary_muscles": [
+        "Glutes",
+        "Hamstrings"
+      ],
+      "equipment": "Machine",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/45-degree-leg-press.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/leg-press.jpg",
+      "youtube_url": "https://youtu.be/sEM_zo9w2ss",
+      "description": "A machine-based quad-dominant compound lift. Great for loading the legs heavy without spinal stress. Foot placement determines quad vs. glute/hamstring emphasis.",
+      "instructions": [
+        "Sit in leg press machine with back flat against pad.",
+        "Place feet shoulder-width on sled, toes slightly out.",
+        "Release safety handles and lower sled by bending knees.",
+        "Lower until knees reach about 90 degrees — no deeper.",
+        "Press through heels to extend legs back to start.",
+        "Repeat for desired reps without locking knees."
+      ],
+      "tips": "Low foot placement = more quads. High placement = more hamstrings and glutes."
+    },
+    {
+      "id": "ex_029",
+      "name": "Dumbbell Walking Lunge",
+      "muscle_group": "Legs",
+      "target_area": "Quadriceps / Glutes",
+      "secondary_muscles": [
+        "Hamstrings",
+        "Core"
+      ],
+      "equipment": "Dumbbell",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/dumbbell-walking-lunge.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/dumbbell-walking-lunge.jpg",
+      "youtube_url": "https://youtu.be/uRSsOoZG9z8",
+      "description": "A functional lower body movement that trains each leg independently, improves balance, and builds glutes and quads simultaneously. Walk forward with a lunge on each step.",
+      "instructions": [
+        "Hold a dumbbell in each hand at your sides.",
+        "Stand tall with feet together.",
+        "Step forward with right foot into a lunge.",
+        "Lower back knee toward floor — front knee stays over ankle.",
+        "Push off front foot and step forward with left foot into next lunge.",
+        "Continue walking forward for desired reps or distance."
+      ],
+      "tips": "Keep torso upright. Don't let front knee cave inward."
+    },
+    {
+      "id": "ex_030",
+      "name": "Lying Leg Curl (Machine)",
+      "muscle_group": "Legs",
+      "target_area": "Hamstrings",
+      "secondary_muscles": [
+        "Calves"
+      ],
+      "equipment": "Machine",
+      "exercise_type": "Strength",
+      "mechanics": "Isolation",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/leg-curl.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/lying_leg_curl.jpg",
+      "youtube_url": "https://youtu.be/1Tq3QdYUuHs",
+      "description": "The most direct hamstring isolation exercise. Lie face down on the machine and curl the weight up by bending the knees. Essential for balanced quad-to-hamstring development.",
+      "instructions": [
+        "Adjust machine pad to just below calves.",
+        "Lie face down and hook heels under pad.",
+        "Keep hips flat against bench throughout.",
+        "Curl heels toward glutes as far as possible.",
+        "Squeeze hamstrings at peak contraction.",
+        "Lower slowly to start and repeat."
+      ],
+      "tips": "Point toes slightly to maximize hamstring activation. Avoid lifting hips off the bench."
+    },
+    {
+      "id": "ex_031",
+      "name": "Plank",
+      "muscle_group": "Abs",
+      "target_area": "Core / Abs",
+      "secondary_muscles": [
+        "Shoulders",
+        "Glutes"
+      ],
+      "equipment": "Bodyweight",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Intermediate",
+      "source_url": "https://www.muscleandstrength.com/exercises/hover.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/plank.jpg",
+      "youtube_url": "https://youtu.be/ASdvN_XEl_c",
+      "description": "The gold standard core stability exercise. Hold a push-up position with only forearms and toes on the ground. Builds total core endurance and teaches proper spinal alignment.",
+      "instructions": [
+        "Get into a forearm push-up position, elbows directly under shoulders.",
+        "Keep body in a straight line from head to heels.",
+        "Brace core, squeeze glutes and thighs.",
+        "Keep hips flat — don't let them sag or pike.",
+        "Breathe normally and hold for prescribed time.",
+        "Rest and repeat."
+      ],
+      "tips": "Quality beats duration — a 30-second perfect plank beats 2 minutes with bad form."
+    },
+    {
+      "id": "ex_032",
+      "name": "Hanging Leg Raise",
+      "muscle_group": "Abs",
+      "target_area": "Lower Abs / Hip Flexors",
+      "secondary_muscles": [
+        "Core"
+      ],
+      "equipment": "Bodyweight",
+      "exercise_type": "Strength",
+      "mechanics": "Isolation",
+      "level": "Advanced",
+      "source_url": "https://www.muscleandstrength.com/exercises/hanging-leg-raise.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/images/banners/2026/06/mobile_10.jpg",
+      "youtube_url": "https://youtu.be/hdng3Nm1x_E",
+      "description": "Hang from a pull-up bar and raise straight legs to 90 degrees. One of the most effective lower ab exercises but requires significant core strength and grip endurance.",
+      "instructions": [
+        "Hang from a pull-up bar with overhand grip, arms fully extended.",
+        "Avoid swinging — brace core to stabilize.",
+        "Raise legs upward by flexing at the hips.",
+        "Bring legs to 90 degrees (parallel to floor) or higher.",
+        "Lower legs slowly in a controlled manner.",
+        "Repeat without swinging."
+      ],
+      "tips": "Beginners can start with bent knees to reduce difficulty."
+    },
+    {
+      "id": "ex_033",
+      "name": "Sit-Up",
+      "muscle_group": "Abs",
+      "target_area": "Abs",
+      "secondary_muscles": [
+        "Hip Flexors"
+      ],
+      "equipment": "Bodyweight",
+      "exercise_type": "Strength",
+      "mechanics": "Isolation",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/sit-up.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/sit-up_0.jpg",
+      "youtube_url": "https://youtu.be/MQDopvLZOS8",
+      "description": "A classic core movement that trains the entire rectus abdominis through a full range of motion. Lie flat and curl your torso all the way up to your knees.",
+      "instructions": [
+        "Lie flat on your back with knees bent, feet flat on floor.",
+        "Cross arms over chest or place fingertips behind ears.",
+        "Brace core and curl torso upward.",
+        "Rise until torso is near vertical.",
+        "Lower slowly back to floor under control.",
+        "Repeat for desired reps."
+      ],
+      "tips": "Exhale on the way up. Don't yank your neck — let abs do the work."
+    },
+    {
+      "id": "ex_034",
+      "name": "Ab Crunch",
+      "muscle_group": "Abs",
+      "target_area": "Upper Abs",
+      "secondary_muscles": [],
+      "equipment": "Bodyweight",
+      "exercise_type": "Strength",
+      "mechanics": "Isolation",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/ab-crunch",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/ab-crunch.jpg",
+      "youtube_url": "https://youtu.be/Plh1CyiPE_Y",
+      "description": "The most basic ab isolation exercise. Unlike a sit-up, the crunch only lifts the shoulder blades off the floor, focusing purely on the rectus abdominis without heavy hip flexor involvement.",
+      "instructions": [
+        "Lie flat on back with knees bent.",
+        "Place fingertips lightly behind ears.",
+        "Brace abs and lift shoulder blades off the floor.",
+        "Do NOT pull on your neck.",
+        "Hold at top for a moment, then lower slowly.",
+        "Repeat for desired reps."
+      ],
+      "tips": "Think about bringing your rib cage toward your hips, not lifting your head."
+    },
+    {
+      "id": "ex_035",
+      "name": "Cable Crunch",
+      "muscle_group": "Abs",
+      "target_area": "Abs",
+      "secondary_muscles": [],
+      "equipment": "Cable",
+      "exercise_type": "Strength",
+      "mechanics": "Isolation",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/cable-crunch.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/cable_crunch.jpg",
+      "youtube_url": "https://youtu.be/2fbujeH3F0E",
+      "description": "A weighted ab exercise using a cable machine and rope attachment. Unlike bodyweight crunches, you can progressively add resistance — making this ideal for building visible abs.",
+      "instructions": [
+        "Attach rope to high cable pulley.",
+        "Kneel facing machine and grip rope with both hands at temples.",
+        "Keep hips stationary throughout.",
+        "Crunch torso downward, pulling elbows toward knees.",
+        "Squeeze abs hard at the bottom.",
+        "Return slowly to upright and repeat."
+      ],
+      "tips": "Hips should not move — all movement comes from flexing the spine."
+    },
+    {
+      "id": "ex_036",
+      "name": "Standing Calf Raise (Barbell)",
+      "muscle_group": "Calves",
+      "target_area": "Gastrocnemius",
+      "secondary_muscles": [
+        "Soleus"
+      ],
+      "equipment": "Barbell",
+      "exercise_type": "Strength",
+      "mechanics": "Isolation",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/standing-calf-raise.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/standing-barbell-calf-raise.jpg",
+      "youtube_url": "https://youtu.be/-M4-G8p1fCI",
+      "description": "Targets the gastrocnemius, the larger outer calf muscle, by performing calf raises with straight knees. Stand on a raised platform for a full range of motion.",
+      "instructions": [
+        "Load a barbell and position it on upper traps.",
+        "Stand with balls of feet on an elevated surface.",
+        "Heels should hang off the edge for full stretch.",
+        "Push up onto tiptoes as high as possible.",
+        "Hold the top position for a count.",
+        "Lower heels slowly below platform level and repeat."
+      ],
+      "tips": "Full range of motion (heel drop to full tiptoe) beats heavy weight with partial reps."
+    },
+    {
+      "id": "ex_037",
+      "name": "Seated Calf Raise (Machine)",
+      "muscle_group": "Calves",
+      "target_area": "Soleus",
+      "secondary_muscles": [
+        "Gastrocnemius"
+      ],
+      "equipment": "Machine",
+      "exercise_type": "Strength",
+      "mechanics": "Isolation",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/seated-calf-raise.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/seated-calf-raise-1.jpg",
+      "youtube_url": "https://youtu.be/Yh5TXz99xwY",
+      "description": "With knees bent at 90 degrees, the gastrocnemius is slackened and the deeper soleus muscle does most of the work. Essential for complete calf development.",
+      "instructions": [
+        "Sit on seated calf raise machine.",
+        "Place knees under pad and balls of feet on platform.",
+        "Lower heels below platform for full stretch.",
+        "Press upward by plantarflexing ankles.",
+        "Hold peak contraction at top.",
+        "Lower slowly and repeat."
+      ],
+      "tips": "Pair this with standing calf raises for complete calf development."
+    },
+    {
+      "id": "ex_038",
+      "name": "Dumbbell Deadlift",
+      "muscle_group": "Back",
+      "target_area": "Lower Back / Traps",
+      "secondary_muscles": [
+        "Hamstrings",
+        "Glutes",
+        "Core"
+      ],
+      "equipment": "Dumbbell",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/dumbbell-deadlift.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/images/banners/2026/06/mobile_10.jpg",
+      "youtube_url": "https://youtu.be/UT5Q8P8xoHo",
+      "description": "A dumbbell version of the conventional deadlift. Allows a more natural hand position (neutral grip) and is excellent for beginners learning the hip-hinge pattern.",
+      "instructions": [
+        "Stand with feet hip-width apart, dumbbells in hands at sides.",
+        "Brace core, chest up, shoulders back.",
+        "Hinge at hips and push them back, knees slightly bent.",
+        "Lower dumbbells along front of legs until hamstrings are loaded.",
+        "Drive through heels to stand, pushing hips forward.",
+        "Squeeze glutes at top and repeat."
+      ],
+      "tips": "Keep dumbbells close to your body. Think of it as pushing the floor away, not pulling the weight up."
+    },
+    {
+      "id": "ex_039",
+      "name": "Dumbbell Goblet Squat",
+      "muscle_group": "Legs",
+      "target_area": "Quadriceps / Glutes",
+      "secondary_muscles": [
+        "Hamstrings",
+        "Core"
+      ],
+      "equipment": "Dumbbell",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/dumbbell-goblet-squat",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/dumbbell-goblet-squat-1.jpg",
+      "youtube_url": "https://youtu.be/5Y3KW5rWMh4",
+      "description": "Hold a dumbbell at chest height like a goblet and squat. The front-loaded position naturally keeps the torso upright, making this the ideal squat teaching tool for beginners.",
+      "instructions": [
+        "Hold one dumbbell vertically at chest height with both hands cupping the top weight.",
+        "Stand feet shoulder-width apart, toes slightly out.",
+        "Brace core and squat down, pushing hips back and knees out.",
+        "Descend until thighs are at least parallel with the floor.",
+        "Drive back up through heels.",
+        "Repeat for desired reps."
+      ],
+      "tips": "Use elbows to push knees out at the bottom for a deeper, more comfortable squat."
+    },
+    {
+      "id": "ex_040",
+      "name": "Dumbbell Pullover",
+      "muscle_group": "Back",
+      "target_area": "Lats / Chest",
+      "secondary_muscles": [
+        "Triceps",
+        "Core"
+      ],
+      "equipment": "Dumbbell",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/dumbbell-pullover.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/dumbbell-pullover.jpg",
+      "youtube_url": "https://youtu.be/FK4rHfFBCGU",
+      "description": "A unique exercise that stretches and loads the lats and chest simultaneously. Lie on a bench and arc a dumbbell from over your chest to behind your head, feeling a deep upper body stretch.",
+      "instructions": [
+        "Lie on a bench with upper back supported, feet flat on floor.",
+        "Hold one dumbbell with both hands, palms pressed against the inner plate.",
+        "Extend arms above chest — this is the start.",
+        "Lower dumbbell back and down in a wide arc behind your head.",
+        "Feel a deep stretch in lats and chest.",
+        "Bring dumbbell back to starting position and repeat."
+      ],
+      "tips": "Keep a slight bend in elbows. Focus on the stretch for lat development; focus on top contraction for chest."
+    },
+    {
+      "id": "ex_041",
+      "name": "Smith Machine Bench Press",
+      "muscle_group": "Chest",
+      "target_area": "Chest",
+      "secondary_muscles": [
+        "Shoulders",
+        "Triceps"
+      ],
+      "equipment": "Machine",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/smith-machine-bench-press.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/smitch-machine-bench-press.jpg",
+      "youtube_url": "https://youtu.be/lUZzGFGy_hE",
+      "description": "Smith Machine Bench Press instruction video & exercise guide! Learn how to do smith machine bench press using correct technique for maximum results!",
+      "instructions": [
+        "Set up the smith machine bench press by placing a flat bench in the smith machine. Lower the bar and add the weight you want to use.",
+        "Lay back on the bench so that your middle chest is level with the bar.",
+        "Your feet should be firmly planted on the floor for support. Grasp the bar with hands wider than shoulder width.",
+        "Unrack the bar and slowly lower the weight down until the bar is about one inch off your chest.",
+        "Pause, then slowly raise the bar up as far as possible without locking your elbows.",
+        "Repeat this movement for desired reps."
+      ],
+      "tips": "Keep the rep timing slow and control the weight throughout the set. Do not \"bounce\" the bar off your chest. Don't lock your elbows out at the top of the movement. Use a wider than shoulder-width grip so that the emphasis is placed on your chest and not front shoulder muscles."
+    },
+    {
+      "id": "ex_042",
+      "name": "Pec Deck",
+      "muscle_group": "Chest",
+      "target_area": "Chest",
+      "secondary_muscles": [
+        "Shoulders"
+      ],
+      "equipment": "Machine",
+      "exercise_type": "Strength",
+      "mechanics": "Isolation",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/pec-dec.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/machine-fly.jpg",
+      "youtube_url": "https://youtu.be/taI4XduLpTk",
+      "description": "The Pec Deck is a machine exercise designed to target the chest muscles, particularly the pectoralis major.",
+      "instructions": [
+        "Adjust the seat and set the height so your elbows are at chest level when sitting.",
+        "Place your arms on the pads or grips with elbows bent at 90 degrees.",
+        "Keep your feet flat on the floor for stability. This is the starting position.",
+        "Slowly bring your arms forward, squeezing your chest.",
+        "Briefly squeeze your chest at the peak of the movement.",
+        "Control the movement as you slowly return to the starting position. This is one rep.",
+        "Repeat for desired repetitions."
+      ],
+      "tips": "Don’t over-extend your range of motion. Stop when your arms are slightly wider than your shoulders to maintain tension on the chest. Focus on your chest by squeezing your chest as you bring the pads together. Keep elbows slightly bent and avoid locking your elbows to protect the joints."
+    },
+    {
+      "id": "ex_043",
+      "name": "Machine T-Bar Row",
+      "muscle_group": "Back",
+      "target_area": "Middle Back",
+      "secondary_muscles": [
+        "Biceps",
+        "Lats",
+        "Shoulders"
+      ],
+      "equipment": "Machine",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/machine-t-bar-row.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/machine-t-bar-row.jpg",
+      "youtube_url": "https://youtu.be/kHW23afzaUs",
+      "description": "The machine t-bar row is a variation of the bent over row and an exercise used to build back muscle and strength.",
+      "instructions": [
+        "Lie prone on the pad of a T-Bar machine and grasp the handle with a neutral or pronated grip depending upon preference or programming.",
+        "Begin the movement by driving the elbows behind the body while retracting the shoulder blades.",
+        "Pull the weight towards your body until the elbows are at (or just past) the midline and then slowly lower the weight back to the starting position under control.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "tips": "Experiment with head position and see which option (looking forward vs. packing the neck) works better for you. Keep some tone through your abdominals as you pull the bar into your body to ensure you don’t arch excessively through your spine. Don’t allow momentum to dictate the movement, control the dumbbells throughout the entirety of each rep. If you feel your biceps being overused and your back remaining under active, consider utilizing a false grip (i.e. don’t wrap the thumb around the dumbbell). As you pull the weight towards your body, don’t hyperextend the thoracic spine by pulling your entire upper torso off the bench. You can extend slightly but don’t make it too drastic. Don’t allow the head to jut forward as you pull. Similarly, ensure the shoulder blade moves on the rib cage. Don’t lock the shoulder blade down and just move through the glenohumeral joint."
+    },
+    {
+      "id": "ex_044",
+      "name": "Machine Row",
+      "muscle_group": "Back",
+      "target_area": "Upper Back",
+      "secondary_muscles": [
+        "Biceps",
+        "Lats"
+      ],
+      "equipment": "Machine",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/machine-row.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/machine_row.jpg",
+      "youtube_url": "https://youtu.be/GZbfZ033f74",
+      "description": "The machine row targets the upper back, specifically the latissimus dorsi, rhomboids, and trapezius muscles, while also engaging the biceps and forearms. It improves back strength, posture, and muscle definition.",
+      "instructions": [
+        "Adjust the seat so that your knees are slightly bent and the handles are around chest height. Set the weight to your desired level.",
+        "Grab the handles with a neutral grip, keeping your arms extended and elbows slightly bent. This is the starting position.",
+        "Engage your back muscles and pull the handles towards your torso, squeezing your shoulder blades together.",
+        "Slowly return the handles to the starting position, extending your arms fully while maintaining control. This is one repetition.",
+        "Perform the desired number of repetitions, keeping your movements smooth and controlled."
+      ],
+      "tips": "Maintain good posture. Sit tall with your chest up and back straight, not rounded. Engage your core to avoid excessive arching in your lower back. Focus on pulling with your back muscles (lats, rhomboids, and traps) rather than using your arms. Your elbows should travel close to your body as you row. Avoid leaning back or using momentum to pull the weight."
+    },
+    {
+      "id": "ex_045",
+      "name": "Smith Machine Shoulder Press",
+      "muscle_group": "Shoulders",
+      "target_area": "Deltoids",
+      "secondary_muscles": [
+        "Triceps"
+      ],
+      "equipment": "Machine",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/smith-machine-shoulder-press.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/seated-military-press.jpg",
+      "youtube_url": "https://youtu.be/kYZ0aUEzgEQ",
+      "description": "The Smith machine shoulder press is a variation of the barbell shoulder press and is used to strengthen the muscles of the shoulders.",
+      "instructions": [
+        "Place an adjustable bench in the Smith machine and adjust the back to a 90-degree angle.",
+        "Adjust the bar to around eye level and load the desired weight on the bar.",
+        "Position your hands around shoulder-width apart and unrack the bar using a pronated grip. This is the starting position for the movement.",
+        "Press the bar overhead by extending the elbows and contracting the deltoids.",
+        "Slowly lower the bar back to the starting position (the arms should be roughly 90 degrees or slightly lower depending on limb lengths).",
+        "Repeat for the desired number of repetitions."
+      ],
+      "tips": "Don’t allow the head to jut forward excessively. Drive the bicep to the ear and exhale as you press. If you sense any pressure in your neck or traps during the movement, look to address a lack of thoracic spine extension or shoulder flexion. If you can’t lock out the elbows overhead then it may indicate a lack of shoulder mobility due to poor scapular upward rotation."
+    },
+    {
+      "id": "ex_046",
+      "name": "Lateral Raise Machine",
+      "muscle_group": "Shoulders",
+      "target_area": "Side (Lateral) Deltoid",
+      "secondary_muscles": [
+        "None"
+      ],
+      "equipment": "Machine",
+      "exercise_type": "Strength",
+      "mechanics": "Isolation",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/machine-lateral-raise.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/field/image/exercise/machinelateralraise1.jpg",
+      "youtube_url": "https://youtu.be/NNAs8jx_zJI",
+      "description": "Machine Lateral Raise instruction video & exercise guide! Learn how to do machine lateral raise using correct technique for maximum results!",
+      "instructions": [
+        "Sit on the machine with your back straight and feet flat on the floor.",
+        "Adjust the seat so your shoulders are aligned with the machine’s pivot point.",
+        "Place your arms against the pads or hold the handles, depending on the machine design.",
+        "Keep your elbows slightly bent and grip relaxed. This is the starting position.",
+        "Lift your arms out to the sides until they are at shoulder height.",
+        "Pause briefly at the top.",
+        "Lower your arms slowly back to the starting position. This is one rep.",
+        "Repeat for the desired number of reps."
+      ],
+      "tips": "Start light to focus on proper form before increasing weight. Avoid using momentum, lift and lower with control. Keep your shoulders down and relaxed to avoid shrugging. Keep a slight bend in your elbow to protect your joints. Pause briefly at the top to increase muscle engagement. Exhale as you lift, inhale as you lower the weight."
+    },
+    {
+      "id": "ex_047",
+      "name": "Machine Hack Squat",
+      "muscle_group": "Legs",
+      "target_area": "Quadriceps",
+      "secondary_muscles": [
+        "Abs",
+        "Adductors",
+        "Calves",
+        "Glutes",
+        "Hamstrings",
+        "Lower Back"
+      ],
+      "equipment": "Machine",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/hack-squat.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/machine-hack-squat-1.jpg",
+      "youtube_url": "https://youtu.be/63tboDKQksc",
+      "description": "The machine hack squat is a variation of the squat and an exercise used to build the muscles of the legs. In particular, the hack squat will target the quads, hamstrings, glutes, and calves.",
+      "instructions": [
+        "Load the machine with the desired weight and position your shoulders and back against the pads.",
+        "Position your feet at shoulder width, extend your legs, and release the safety handles.",
+        "Slowly lower the weight by bending your knees until your thighs are approximately at 90 degrees.",
+        "Reverse the movement by driving into the platform and extending the knees and hips.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "tips": "To keep tension on the quads, keep the knees just shy of lockout. In order to emphasize the glutes more, push through the heels. In order to emphasize the quads more, push through the balls of the feet. Don’t allow the hips to posteriorly tilt and roll off the pad. Keep your low back flat against the pad throughout the movement. Ensure the head does not jut forward excessively. Self spotting is possible by simply applying pressure to the knees with the hands. Use only when necessary. Toe angle is individual and will depend upon each individual’s hip anatomy and ankle mobility - experiment and adjust based upon feel."
+    },
+    {
+      "id": "ex_048",
+      "name": "Smith Machine Squat",
+      "muscle_group": "Legs",
+      "target_area": "Quadriceps / Glutes",
+      "secondary_muscles": [
+        "Abs",
+        "Adductors",
+        "Calves",
+        "Glutes",
+        "Hamstrings",
+        "Lower Back"
+      ],
+      "equipment": "Machine",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/smith-machine-squat.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/smith-machine-back-squat-1.jpg",
+      "youtube_url": "https://youtu.be/BtfMX4WqUBo",
+      "description": "The Smith machine squat is a variation of the squat and an exercise used to build the muscles of the legs. In particular, the Smith machine squat will place a lot of emphasis on the quads.",
+      "instructions": [
+        "Position the bar just below shoulder level and adjust the safety stops right above knee height.",
+        "Place your pinkies on the smooth ring of the barbell.",
+        "Get under the bar and position at the base of your traps looking straight ahead.",
+        "Unrack the bar by rotating your wrists to remove the safety hooks.",
+        "Take a deep breath and keep your elbows in line with your torso.",
+        "Descend by simultaneously pushing the hips back and bending the knees.",
+        "Once your thighs reach parallel with the floor, reverse the movement by driving your feet into the floor and flexing your quads.",
+        "Finish the lift by exhaling as you fully extend the hips and knees."
+      ],
+      "tips": "Low bar will not work well with smith machine squats due to the completely vertical bar path. Toe angle is highly individual - experiment to see what feels best for you. Experiment with a “false” (i.e. thumbless) grip as this helps to eliminate elbow and wrist issues in some folks. Drive through the whole foot - you want 3 points of contact: big toe, little toe, and heel. Imagine you’re trying to drop your back pockets straight towards your heels. Down, not back. Some forward translation of the knees over the toes is alright provided that the knees don’t deviate excessively inward or outward. Those with longer femurs will have to allow their knees to come farther forward if they want to remain upright. Drive your traps into the bar and try to squeeze your elbows in towards your body as you reverse the movement out of the hole. Neck position is highly individual as well - some prefer a neutral neck position (i.e. keeping the chin tucked throughout the lift) while others do well with looking straight ahead. Experiment with each and see which one works best for your anatomy. Don’t push the knees out excessively but ensure they track roughly over or slightly outside the 2nd toe."
+    },
+    {
+      "id": "ex_049",
+      "name": "Reverse Hack Squat",
+      "muscle_group": "Legs",
+      "target_area": "Hamstrings / Glutes",
+      "secondary_muscles": [
+        "Calves",
+        "Glutes",
+        "Quads"
+      ],
+      "equipment": "Machine",
+      "exercise_type": "Strength",
+      "mechanics": "Compound",
+      "level": "Intermediate",
+      "source_url": "https://www.muscleandstrength.com/exercises/reverse-hack-squat.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/reverse-hack-squat.jpg",
+      "youtube_url": "https://youtu.be/63tboDKQksc",
+      "description": "Reverse hack Squat instruction video & exercise guide! Learn how to do reverse hack squat using correct technique for maximum results!",
+      "instructions": [
+        "Set up the reverse hack machine by loading the weight you want to use.",
+        "Position yourself with your chest flat on the pad and shoulders up against the shoulder pads.",
+        "Position your feet at around shoulder width apart on the bottom of the platform.",
+        "Push up to take the weight off the stack, place your arms on the side handles of the machine and disengage the safety bars. This is the starting position for the movement.",
+        "Slowly lower the weight down until your thighs are at approximately right angles with your calves.",
+        "Pause, and then push the weight back up to the starting position without locking your knees at the top of the movement.",
+        "Repeat for desired reps."
+      ],
+      "tips": "Do not lock your knees out at the top of the reps. Lower the weight slowly. Make sure your knees do not track out over your toes as this will cause undue stress to the knees. Keep your head up throughout the exercise - don't look down."
+    },
+    {
+      "id": "ex_050",
+      "name": "Standing Glute Kickback Machine",
+      "muscle_group": "Legs",
+      "target_area": "Glutes",
+      "secondary_muscles": [
+        "Hamstrings"
+      ],
+      "equipment": "Machine",
+      "exercise_type": "Strength",
+      "mechanics": "Isolation",
+      "level": "Beginner",
+      "source_url": "https://www.muscleandstrength.com/exercises/standing-glute-kickback.html",
+      "image_url": "https://cdn.muscleandstrength.com/sites/default/files/glute-kick-back.jpg",
+      "youtube_url": "https://youtu.be/MxsFDhcyFyE",
+      "description": "Standing Glute Kickback instruction video & exercise guide! Learn how to do standing glute kickback using correct technique for maximum results!",
+      "instructions": [
+        "Adjust the machine height and weight to suit your needs.",
+        "Stand facing the machine and hold the handles or support bar.",
+        "Place one foot on the footpad or secure the padding under your knee (depending on the machine).",
+        "Keep your core tight and back straight.",
+        "Push your working leg straight back in a controlled motion.",
+        "Squeeze your glute at the top of the movement.",
+        "Slowly return your leg to the starting position. This is one rep.",
+        "Repeat for reps, then switch legs."
+      ],
+      "tips": "The lumbar spine shouldn't move at all — ensure that all of the movement comes entirely from the hip. Squeeze the glute and exhale as the hip extends to keep the abs active. Keep the head down and don't worry about looking up as you complete repetitions. Keep the elbows locked out and think about leading the movement by driving the heel vertically."
+    }
+  ]
+}
